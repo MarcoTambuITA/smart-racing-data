@@ -1,0 +1,31 @@
+# Ignore PDFs
+*.pdf
+
+# Ignore images
+*.png
+
+# Ignore markdown notes but not README
+docs/*.md
+*.md
+!README.md
+
+# macOS system files
+.DS_Store
+
+# Ignore virtual environment
+.venv/
+
+# Python cache (if applicable)
+__pycache__/
+*.pyc
+
+# Build / temp folders
+build/
+dist/
+*.log
+
+# Virtual environments (if you use one)
+venv/
+.env
+.venv/
+GitHub_repositories/
